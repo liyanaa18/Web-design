@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <title>Task</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h1, h3, p, ul, li, body, html {
+            margin: 0;
+        } 
+
+        h1, p, button, div {
+            font-family: Comic Sans MS;
+        }
+
+        .clear-fix {
+            clear: both;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .btn-header {
+            background: none;
+            border: 1px solid white;
+            color: white;
+            padding: 5px 20px;
+        }
+
+        .btn-header:hover, .op-button:hover, .so-button:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        .op-button {
+            border: 1px solid #48ca95;
+            color: #48ca95;
+            padding: 6px 20px;
+            background: unset;
+        }
+
+        .so-button {
+            background: #48ca95;
+            color: white;
+            border: 1px solid #48ca95;
+            padding: 8px 40px;
+        }
+
+        .header {
+            background: url('/images/4.jpg');
+            padding: 20px;
+            color: white;
+        }
+
+        .header-menu ul {
+            text-align: right;
+        }
+
+        .header-menu ul li {
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+        .header-menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header-menu ul li a:hover {
+            color: #48ca95;
+        }
+
+        .header-info {
+            width: 80%;
+            margin: 100px auto;       
+        }
+
+        .h-left {
+            width: 50%;
+            float: left;
+        }
+
+        .h-right {
+            width: 50%;
+            float: right;
+        }
+
+        .h-left p, .h-left h1 {
+            margin-bottom: 10px;
+        }
+
+        .computer-info {
+            width: 70%;
+            margin: 27px auto;
+        }
+
+        .c-box {
+            width: 31%;
+            float: left;
+            padding: 15px;
+            text-align: center;
+            border: 2px solid #48ca95;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+
+        .c-box i {
+            font-size: 32px;
+            color:#48ca95;
+        }
+
+        .c-box h3 {
+            margin: 7px 0;
+        }
+
+        .c-box:nth-child(2), .c-box:nth-child(3) {
+            margin-left: 3.5%;
+        }
+
+        .our-products {
+            background: #f7f7f7;
+            padding: 25px 0;
+        }
+
+        .s-title {
+            text-align: center;
+            border-bottom: 1px solid #48ca95;
+            width: 180px;
+            margin: 15px auto;
+        }
+
+        .op-body {
+            background: white;
+            width: 70%;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .op-box {
+            width: 30%;
+            float: left;
+            padding: 15px;
+        }
+
+        .ml-5 {
+            margin-left: 5%;
+            margin-bottom: 10px;
+        }
+
+        .op-box-title {
+            background: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .special-offer {
+            background: url('/images/4.jpg');
+            color: white;
+            padding: 50px 0;
+        }
+
+        .so-container {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .so-left, .so-right {
+            float: left;
+            width: 50%;
+        }
+
+        .so-left h2 {
+            font-size: 50px;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        .testimonials {
+            padding: 50px 0;
+        }
+
+        .testimonials h2 {
+            width: 220px;
+        }
+
+        .t-body {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .t-body h3 {
+            margin: 10px 0;
+        }
+
+        .contacts {
+            background: url('/images/4.jpg');
+            padding: 50px;
+            color: white;
+        }
+
+        .c-body {
+            width: 60%;
+            border: 1px solid white;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .c-body input, .c-body textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: unset;
+            border: 1px solid white;
+            color: white;
+        }
+
+        .c-body input::placeholder, .c-body textarea::placeholder {
+            color: white;
+        }
+
+        .c-body input:focus, .c-body textarea:focus {
+            outline: dotted;
+            outline-color: white;
+        }
+
+        .footer {
+            background: #252527;
+            color:white;
+            padding-top: 60px;
+        }
+
+        .f-container {
+            width: 70%;
+            margin: 0 auto;
+            padding-bottom: 9px;
+
+        }
+
+        .f-box {
+            width: 30%;
+            float: left;
+        }
+
+        .f-box:nth-child(2), .f-box:nth-child(3) {
+            margin-left: 5%;
+        }
+
+        .f-box input {
+            width: 100%;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 10px;
+            border: unset;
+        }
+    </style>
+    <body>
+        <div class="header">
+            <div class="header-menu">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Aboout</a>
+                    </li>
+                    <li>
+                        <a href="">Shop</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="header-info">
+                <div class="h-left">
+                    <h1>
+                        Computers and Laptops <br/>
+                        <span>Accessories</span>
+                    </h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Excepturi animi 
+                        provident repellat molestiae est harum.
+                    </p>
+                    <button class="btn-header">Buy now</button>
+                    <button class="btn-header">Contact</button>
+                </div>
+                <div class="h-right">
+                    <img src="/images/1.png" alt="" />
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+
+        <div class="computer-info">
+            <div class="c-box">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Computer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vitae!</p>
+            </div>
+            <div class="c-box">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Computer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vitae!</p>
+            </div>
+            <div class="c-box">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Computer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vitae!</p>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+
+        <div class="our-products">
+            <div>
+                <h2 class="s-title">OUR <br/>PRODUCTS</h2>
+            </div>
+            <div class="op-body">
+                <div class="op-row">
+                    <div class="op-box">
+                        <img src="/images/2.png" alt="" />
+                        <div class="op-box-title">Computer</div>
+                    </div>
+                    <div class="op-box ml-5">
+                        <img src="/images/2.png" alt="" />
+                        <div class="op-box-title">Computer</div>
+                    </div>
+                    <div class="op-box ml-5">
+                        <img src="/images/2.png" alt="" />
+                        <div class="op-box-title">Computer</div>
+                    </div>
+                </div>
+
+                <div class="op-row">
+                    <div class="op-box">
+                        <img src="/images/2.png" alt="" />
+                        <div class="op-box-title">Computer</div>
+                    </div>
+                    <div class="op-box ml-5">
+                        <img src="/images/2.png" alt="" />
+                        <div class="op-box-title">Computer</div>
+                    </div>
+                    <div class="op-box ml-5">
+                        <img src="/images/2.png" alt="" />
+                        <div class="op-box-title">Computer</div>
+                    </div>
+                </div>
+                <div class="op-row text-center">
+                    <button class="op-button">See more</button>
+                </div>
+                <br/>
+            </div>
+        </div>
+
+        <div class="special-offer">
+            <div class="so-container">
+                <div class="so-left">
+                    <h3>Special offer</h3>
+                    <h2>40% OFF</h2>
+                    <button class="so-button">
+                        Shop Now
+                    </button>
+                </div>
+                <div class="so-right">
+                    <img src="/images/3.png" alt="" />
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <div>
+                <h2 class="s-title">TESTIMONIALS</h2>
+            </div>
+            <div class="t-body">
+                <i class="fa-solid fa-star"></i>
+                <h3>Jhon Doe</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita corrupti error obcaecati amet odio quasi recusandae
+                    ipsam mollitia harum hic? Minus, animi! Modi, nulla quae? 
+                    Quae corrupti temporibus laboriosam? Odio harum id sequi 
+                    doloremque repellendus magnam officiis, debitis consectetur 
+                    placeat, repellat assumenda molestiae ducimus, 
+                    iste accusamus deleniti necessitatibus beatae architecto!
+                </p>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div class="c-title text-center">
+                <h2>CONTACT<br/>NOW</h2>
+            </div>
+            <div class="c-body">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Phone Number">
+                <textarea placeholder="Message" rows="5"></textarea>
+                <div class="text-center">
+                    <button class="so-button" style="border-radius: 20px;">SEND</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="f-container">
+                <div class="f-row">
+                    <div class="f-box">
+                        <h3>About us</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Vero aliquid, illo laboriosam omnis doloremque ipsum.</p>
+                    </div>
+                    <div class="f-box">
+                        <h3>Contact us</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Vero aliquid, illo laboriosam omnis doloremque ipsum.</p>
+                    </div>
+                    <div class="f-box">
+                        <h3>Newsletter</h3>
+                        <input type="text" placeholder="Enter your email"/>
+                        <button class="so-button">Subscribe</button>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+                <br/><br/>
+                <hr>
+                <div class="text-center">
+                    &copy; 2023 All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
