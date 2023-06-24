@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Task 3</title>
+        <link rel="stylesheet" href="task3.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="h-logo">
+                    <p>Поставете лого тук</p>
+                </div>
+
+                <div class="h-form">
+                    <input type="text" placeholder="Въведи текст" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                <div class="h-user">
+                    <div class="left-h-user">
+                        <img src="/images/forteen.png" alt="" />
+                    </div>
+
+                    <div class="right-h-user">
+                        <span>Администратор</span>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="body-info">
+                <div class="dashboard">
+                    <div class="h-dashboard">
+                        <h3>ТАБЛО</h3>
+                        <div class="h-dashboard-info">
+                            <i class="fa-solid fa-house"></i>
+                            <button class="btn-class">Табло</button>
+                        </div>
+                    </div>
+                    <div class="b-dashboard">
+                        <h3>ТАБЛО ЕЛЕМЕНТ</h3>
+
+                        <div class="b-dashboard-info">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <button class="btn-class" style="background: white;">Табло Елемент 1</button>
+                            <br/>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <button class="btn-class" style="background: white;">Табло Елемент 2</button>
+                            <br/>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <button class="btn-class" style="background: white;">Табло Елемент 3</button>
+                            <br/>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="counts">
+                        <div class="top-part">
+                            <div class="orders">
+                                <h3 class="h-orders">Брой поръчки</h3>
+                                <span class="b-orders">5250</span>
+                            </div>
+                            <div class="customers">
+                                <h3 class="h-orders">Клиенти</h3>
+                                <span class="b-orders">1250</span>
+                            </div>
+                            <div class="invoice">
+                                <h3 class="h-orders">Фактури</h3>
+                                <span class="b-orders">5250</span>
+                            </div>
+                        </div>
+                        <div class="clear-fix"></div>
+                        <div class="bottom-part">
+                            <div class="success-orders">
+                                <h3 class="h-orders">Успешни поръчки</h3>
+                                <span class="b-orders" style="color: rgb(72, 194, 72)">4250</span>
+                            </div>
+                            <div class="products">
+                                <h3 class="h-orders">Продукти</h3>
+                                <span class="b-orders" style="color: rgb(246, 162, 7)">3М</span>
+                            </div>
+                            <div class="followers">
+                                <h3 class="h-orders">Последователи</h3>
+                                <span class="b-orders" style="color: rgb(229, 27, 61)">45М</span>
+                            </div>
+                            <div class="clear-fix"></div>
+                        </div>
+                    </div>
+
+                    <div class="online-users">
+                        <div class="c-online-users">
+                            <div class="h-online-users">
+                                <h2>Активни потребители</h2>
+                            </div>
+                            <hr>
+                            <div class="b-online-users">
+                                <table>
+                                    <tr>
+                                        <th>ИД</th>
+                                        <th>Име</th>
+                                        <th>Град</th>
+                                        <th>Статус</th>
+                                        <th>Действие</th>
+                                    </tr>
+                                    <tr class="g-color">
+                                        <td class="id">1113212</td>
+                                        <td class="user-info">
+                                            <img src="/images/forteen.png" alt="" />
+                                            <div class="h-position">
+                                                <name class="id">Петър Тодоров</name><br/>
+                                                <position class="pos">Уеб разработчик</position>
+                                            </div>
+                                        </td>
+                                        <td>София</td>
+                                        <td>
+                                            <button class="action" style="background: orange; color: black; text-align: left;">В изчакване</button>
+                                        </td>
+
+                                        <td>
+                                            <button class="action">Детайли</button>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="w-color">
+                                        <td class="id">1113213</td>
+                                        <td class="user-info">
+                                            <img src="/images/forteen.png" alt="" />
+                                            <div class="h-position">
+                                                <name class="id">Георги Георгиев</name><br/>
+                                                <position class="pos">C# разработчик</position>
+                                            </div>
+                                        </td>
+                                        <td class="id">Пловдив</td>
+                                        <td>
+                                            <button class="action" style="background: green; color: white; text-align: left;">Завършен</button>
+                                        </td>
+                                       
+                                        <td>
+                                            <button class="action">Детайли</button>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="g-color">
+                                        <td class="id">1113214</td>
+                                        <td class="user-info">
+                                            <img src="/images/forteen.png" alt="" />
+                                            <div class="h-position">
+                                                <name class="id">Тодор Тодоров</name><br/>
+                                                <position class="pos">Android разработчик</position>
+                                            </div>
+                                        </td>
+                                        <td class="id">Варна</td>
+                                        <td>
+                                            <button class="action" style= "background: rgb(192, 32, 59); color: white; text-align: left;">В процес</button>
+                                        </td>
+                                        <td>
+                                            <button class="action">Детайли</button>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="w-color">
+                                        <td class="id">1113215</td>
+                                        <td class="user-info">
+                                            <img src="/images/forteen.png" alt="" />
+                                            <div class="h-position">
+                                                <name class="id">Костадин Петров</name><br/>
+                                                <position class="pos">Дизайнер</position>
+                                            </div>
+                                        </td>
+                                        <td class="id">Бургас</td>
+                                        <td>
+                                            <button class="action" style= "background: rgb(9, 148, 255); color: white; text-align: left;">Спрян</button>
+                                        </td>
+                                        <td>
+                                            <button class="action">Детайли</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="percent-box">
+
+                        <div class="workload">
+                            <div class="workload-pb">
+                                <div class="info">
+                                    <span class="workload-percents" style="color: rgb(92, 117, 230);">25%</span>
+                                    <div class="button-class">
+                                        <div class="button-class-2"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+                            <span class="name-box">Натовареност</span>
+                        </div>
+
+                        <div class="work">
+                            <div class="workload-pb">
+                                <div class="info">
+                                    <span class="workload-percents" style="color:rgb(72, 194, 72)">50%</span>
+                                    <div class="button-class">
+                                        <div class="button-class-3"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+                            <span class="name-box">Работа</span>
+                        </div>
+            
+                        <div class="purpose">
+                            <div class="workload-pb">
+                                <div class="info">
+                                    <span class="workload-percents" style="color:rgb(229, 27, 61)">30%</span>
+                                    <div class="button-class">
+                                        <div class="button-class-4"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+                            <span class="name-box">Цел</span>
+                        </div>
+                        
+                        <div class="investment">
+                            <div class="workload-pb">
+                                <div class="info">
+                                    <span class="workload-percents" style="color:rgb(246, 162, 7)">30%</span>
+                                    <div class="button-class">
+                                        <div class="button-class-4" style="background:rgb(246, 162, 7)"></div>
+                                    </div>
+                                </div>
+                                <div class="clear-fix"></div>
+                            </div>
+                            <span class="name-box">Инвестиция</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="footer">
+                <div class="left-f">
+                    <a href="">Връзка</a>
+                    <a href="">Връзка 2</a>
+                </div>
+                <div class="right-f">
+                    <a href="">Връзка 3</a>
+                    <a href="">Връзка 4</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </body>
+</html>

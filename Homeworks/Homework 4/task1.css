@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.btn-class {
+    background: none;
+    border: 1px solid #58E970;
+    color: #58E970;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-class:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header {
+    background-image: url("/images/first.jpg");
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.header .rt-info {
+    text-align: center;
+}
+
+.header-initials {
+    float: left;
+    width: 50%;
+}
+
+.header-menu {
+    float: right;
+    width: 50%;
+}
+
+.header-initials span {
+    color: #58E970;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.header-menu ul {
+    text-align: right;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.header-menu ul li {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header-menu ul li a:hover {
+    color:#58E970;
+}
+
+.header-initials a:hover {
+    color:white;
+}
+
+.rt-info h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial;
+    padding-top: 80px;
+}
+
+.rt-info h2 {
+    color: #58E970;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.h-whyus {
+    text-align: center;
+    font-family: Calibri;
+}
+
+.h-whyus h2 {
+    font-size: 30px;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.h-whyus h3 {
+    color:#58E970;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.info-whyus {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-info {
+    float: left;
+    width: 23%;
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 50px;
+    box-shadow: 1px 1px 2px 2px;
+    padding-right: 50px;
+    text-align: center;
+    margin-right: 180px;
+}
+
+.second-info {
+    width: 23%;
+    float: left;
+    box-shadow: 1px 1px 2px 2px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.third-info {
+    float: right;
+    width: 23%;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.best-boat {
+    background-image: url('/images/second.jpg');
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.b-boat {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.best-boat h3, .best-boat p {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+.best-boat h3 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.best-boat p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.h-contact {
+    text-align: center;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.h-contact h3 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: Arial;
+}
+
+.h-contact span {
+    padding: 0;
+}
+
+.c-body {
+    width: 50%;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(143, 142, 142);
+    height: 360px;
+}
+
+.c-body input, .c-body textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: unset;
+    border: 1px solid #58E970;
+    color: white;
+}
+
+.c-body input::placeholder, .c-body textarea::placeholder {
+    color: white;
+}
+
+.c-body input:focus, .c-body textarea:focus {
+    outline: solid;
+    outline-color: #58E970;
+}
+
+.footer {
+    background: black;
+    margin-top: 50px;
+    text-align: center;
+    height: 300px;
+}
+
+.h-footer {
+    color:#58E970;
+    padding-top: 50px;
+}
+
+.f-header {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.f-header, .h-footer {
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.email-form input {
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: block;
+}

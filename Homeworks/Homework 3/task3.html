@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 3</title>
+        <link rel="stylesheet" href="task3.css">
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <h1>Форма за регистрация</h1>
+            </div>
+            <div class="form">
+                <form method="POST" enctype="multipart/form-data">
+                    <table>
+                        <tr>
+                            <td class="info">
+                                <label for="id">Име</label>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Въведи име" id="id" name="id">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Презиме</td>
+                            <td>
+                                <input type="text" placeholder="Въведи презиме" name="company">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Фамилия</td>
+                            <td>
+                                <input type="text" placeholder="Въведи фамилия">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Email</td>
+                            <td>
+                                <input type="text" placeholder="Въведи email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Телефон</td>
+                            <td>
+                                <input type="text" placeholder="Въведи телефон">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Пол</td>
+                            <td>
+                                <input type="radio" name="workFrom">Мъж
+                                <input type="radio" name="workFrom">Жена
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Приемам <br/> условията</td>
+                            <td>
+                                <input type="checkbox">ГДПР
+                                <input type="checkbox">Общите условия
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="info">Години</td>
+                            <td class="options">
+                                <select>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+                <div class="form-registration">
+                    <button type="submit">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

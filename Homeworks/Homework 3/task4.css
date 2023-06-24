@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Times New Roman;
+}
+
+.container {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.h-menu {
+    border: 1px solid silver;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    padding-top: 50px;
+    background: rgb(247, 198, 217);
+    height: 200px;
+    border-bottom: 1px solid silver;
+}
+
+.part {
+    border-bottom: 1px solid silver;
+    padding-bottom: 100px;
+}
+
+.image-part {
+    padding-bottom: 580px;
+}
+
+.right-part {
+    float: right;
+    padding-top: 35px;
+}
+
+h1, p {
+    font-family: Calibri;
+}
+
+h1 {
+    padding-bottom: 5px;
+    font-size: 50px;
+}
+
+.header-1 {
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: rgb(163, 15, 64);
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+ul li a {
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Lucida;
+}
+
+ul li a:hover {
+    color:rgb(1, 14, 252);
+}
+
+.abonament {
+    padding-top: 35px;
+    margin-left: 50px;
+    float: left;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.form-field {
+    font-size: 18px;
+    margin-right: 15px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.create-abonament {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-family: Cambria;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.form-field, .create-abonament {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.left-side img {
+    width: 60%;
+    padding-top: 25px;
+    float:left;
+    height: 600px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.second-pic, .third-pic {
+    width: 40%;
+    height: 300px;
+    padding-top: 25px;
+    padding-left: 10px;
+    float:right;
+    padding-right: 50px;
+}
+
+.motivation-first {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.motivation img {
+    width: 10%;
+    height: 70px;
+    float:left;
+    border-radius: 5px;
+}
+
+.motivation h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.motivation p {
+    font-size: 15px;
+    color: grey;
+}
+
+.motivation h4, .motivation p {
+    padding-left: 180px;
+}
+
+.motivation-first, .motivation-second {
+    padding-left: 40px;
+}
+
+.button-class {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.button-class .loading {
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: white;
+}
+

@@ -1,0 +1,97 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background:rgb(104, 207, 228);
+    width: 80%;
+    height: 800px;
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+
+.box {
+    padding-left: 0 auto;
+    padding-top: 10px;
+}
+
+.box-header {
+    background-color: rgb(70, 65, 65);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.box-body {
+    background-color: white;
+    height: 540px;
+}
+
+.box-footer {
+    background-color: rgb(70, 65, 65);
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.they {
+    padding: 5px;
+}
+
+.box-header-right {
+    padding-left: 100px;
+}
+
+.box-header-left .img {
+    width: 10%;
+    border-radius: 100%;
+    float: left;
+}
+
+.username {
+    color: white;
+    padding-bottom: 0 auto;
+    font-size: 20px;
+}
+
+.status {
+    color: rgb(38, 187, 38);
+    font-size: 12px;
+}
+
+.they-left .chat-img {
+    float:left;
+    width: 5%;
+    padding-top: 10px;
+    margin-left: 20px; 
+    border-radius: 100%;
+}
+
+.they-right .they-msg {
+    background-color: black;
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 75px;
+    margin-bottom: 3px;
+}
+
+.they-right .time {
+    margin-left: 75px;
+    color: grey;
+    padding-top: 0px;
+}
+
+.us .us-msg {
+    background-color: rgb(84, 189, 84);
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    padding: 8px;
+    float: right;
+    margin-right: 10px;
+}

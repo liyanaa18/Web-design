@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+h1, h2, p, button, div {
+    font-family: Comic Sans MS;
+}
+
+.header {
+    background: rgb(244, 172, 244);
+    padding-bottom: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.h-logo h1 {
+    color: black;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.h-menu ul {
+    text-align: right;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.h-menu ul li {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.h-menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.h-menu ul li a:hover {
+    color: #b592c4;
+}
+
+.h-menu .dd-menu {
+    border: none;
+    background: none;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.description-house {
+    width: 45%;
+    float: left;
+    padding-left: 20px;
+}
+
+.description-house h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.house-images .one {
+    width: 50%;
+    float: right;
+    padding-top: 80px;
+    padding-right: 120px;
+}
+
+.house-images .two {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 85px;
+    padding-bottom: 30px;
+}
+
+.house-images img {
+    width: 48%;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.description-rooms {
+    padding-top: 35px;
+}
+
+.description-rooms h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.description-rooms p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rooms-images .three img {
+    width: 33%;
+    padding-right: 5px;
+}
+
+.rooms-images .four {
+    text-align: center;
+}
+
+.rooms-images .four img {
+    width: 33%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.description-spa {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.description-spa h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+}
+
+.d-spa {
+    padding-top: 40px;
+    margin-left: 150px;
+    width: 40%;
+}
+
+.description-spa h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid black;
+    width: 33.3%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.description-spa ul {
+    width: 33.3%;
+    border-bottom: 2px solid black;
+    float: left;
+}
+
+.spa-images {
+    margin-left: 300px;
+}
+
+.spa-images img {
+    width: 45%;
+    height: 400px;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.footer {
+    padding-top: 30px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgb(244, 172, 244);
+}
+
+.footer .info {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.footer .contacts {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.footer .contacts span {
+    width: 100%;
+}
+
+.footer .contacts input {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: unset;
+    margin-left: 10px;
+}
+
+.footer .contacts .btn-class {
+    width: 30%;
+    padding: 5px 5px;
+    margin-left: 100px;
+    background: white;
+    border-radius: 20px;
+}
+
+.footer .end {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
