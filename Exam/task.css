@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    width: 50%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.btn-class {
+    background: #198754;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 12px 10px;
+}
+
+.btn-class:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.h-title {
+    color: #198754;
+    padding-bottom: 8px;
+    text-shadow: 1px 1px black;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.sub-last-action-images {
+    width: 20%;
+    float: left;
+    margin: 0 auto;
+    background: url('/images/1.jpg');
+    background-size: 100% 100%;
+    height: 400px;
+    width: 50%;
+}
+
+.sub-last-action-images h5, .sub-last-action-images p {
+    color: white;
+    font-family: Arial;
+    margin-left: 100px;
+}
+
+.sub-last-action-images h5 {
+    margin-top: 280px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-last-action-images p {
+    opacity: 0.9;
+}
+
+.h-menu ul li a:hover {
+    color: rgb(143, 255, 167);
+}
+
+.header {
+    background-image: url('/images/header.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 250px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.h-menu ul {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 5px 0px;
+    width: 28%;
+    text-align: left;
+}
+
+.h-menu ul li {
+    display: inline-block;
+}
+
+.h-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 10px;
+} 
+
+.h-logo {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 55%;
+    margin-top: 200px;
+    padding-top: 15px;
+    height: 200px;
+}
+
+.h-logo h1, .h-logo p {
+    font-family: Arial;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.h-logo h1 {
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.h-logo p {
+    padding-bottom: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.phrase {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.phrase h2 {
+    color: #198754;
+    padding-bottom: 8px;
+    text-shadow: 1px 1px black;
+    font-size: 30px;
+}
+
+.phrase span {
+    display: block;
+    padding-bottom: 40px;
+    color: rgb(170, 170, 170);
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.purpose {
+    background: #198754;
+    padding: 70px;
+}
+
+.purpose h2, .purpose h4 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    text-shadow: 1px 1px black;
+}
+
+.purpose h4 {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.purpose h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.purpose i {
+    border: 1px solid white;
+    background: white;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 25px 25px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #2183a4;
+}
+
+.purpose span {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.icons {
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding-right: 50px;
+}
+
+.tree, .p-purpose {
+    float: left;
+}
+
+.animals, .progress {
+    float: right;
+}
+
+.tree, .p-purpose, .animals, .progress {
+    width: 20%;
+}
+
+.p-purpose {
+    margin-left: 50px;
+}
+
+.animals {
+    margin-right: 50px;
+}
+
+.signup {
+    background: url('/images/beach.jpg');
+    background-size: 100% 100%;
+    height: 450px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.signup h2 {
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-family: Arial;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+.last-action {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.last-action .h-title {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.last-action-images {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact {
+    background: #198754;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact h3 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: Arial;
+    text-shadow: 1px 1px black;
+}
+
+.contact .btn-class {
+    background:white; 
+    color: black;
+}
+
+.footer {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.footer .f-icons {
+    margin-bottom: 40px;
+}
+
+.footer .f-icons i {
+    background: #198754;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-right: 5px;
+    color: white;
+}
+
+.footer .f-end {
+    font-family: Arial;
+    font-size: 10px;
+    color: rgb(158, 157, 157);
+}
